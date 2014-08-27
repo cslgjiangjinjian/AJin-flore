@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+
+	<title></title>
+	<link rel="stylesheet" href="jquery.mobile-1.4.2.min.css">
+	<style type="text/css">
+		#pageone{background-color: #B2DBED;}
+		#pagetwo{background-color: #C5DC81;}
+		#pagethreefooter{margin: 0 auto;text-align: center;}
+		#pagethreefooter div,#pagethreefooter a{border: none; background-color: #E9E9E9;}
+		body{background: #f60;}
+	</style>
+	<script src="jquery-1.9.1.min.js"></script>
+	<script src="jquery.mobile-1.4.2.min.js"></script>
+</head>
+<body >
+<!-- 	<div data-role="page">
+<div data-role="header"><h1>Page Title</h1></div>/header
+<div data-role="content"><p>Page content goes here.</p></div>/content
+<div data-role="footer"><h4>Page Footer</h4></div>/footer
+</div> -->
+
+<div data-role="page" id="pageone">
+<div data-role="header"><a href="#" data-role="button" data-rel="back">返回</a><h1>第一页</h1><a href="#pageone" class="ui-btn-right" data-role="button" >首页</a></div>
+
+<div data-role="content">
+	<p><a href="#pagetwo"  data-transition="pop">pagetwo</a></p>data-rel="dialog"
+	<p><a href="http://www.html5cn.org/">http://www.html5cn.org/</a></p>
+	<button data-inline="true">按钮</button>
+	<input type="button" value="按钮" data-inline="true">
+	<a  href="#pagethree" data-role="button" data-inline="true">页面三</a>
+	<a  href="#pagefour" data-role="button" data-inline="true">页面四</a>
+	<section>
+		<div data-role="collapsible" data-collapsed="false">
+		  <h1>点击我 - 我可以折叠！</h1>
+		  <p>我是可折叠的内容。 <div data-role="collapsible">
+		    <h1>点击我 - 我是嵌套的可折叠块！</h1>
+		    <p>我是嵌套的可折叠块中被展开的内容。</p>
+		  </div></p>
+		</div>
+		<div data-role="collapsible-set">
+		  <div data-role="collapsible">
+		    <h1>点击我 - 手风琴！</h1>
+		    <p>我是被展开的内容。</p>
+		  </div>
+		  <div data-role="collapsible" >
+		    <h1>点击我 - 手风琴！无圆角</h1>
+		    <p>data-inset="false"</p>
+		  </div>
+		  <div data-role="collapsible">
+		    <h1>点击我 - 手风琴！改变图标</h1>
+		    <p>通过 data-collapsed-icon 和 data-expanded-icon 改变图标</p>
+		  </div>
+		  <div data-role="collapsible">
+		    <h1>点击我 - 手风琴！如何使 collapsibles 更小巧</h1>
+		    <p>通过 data-mini 最小化 collapsibles</p>
+		  </div>
+		</div>
+	</section>
+</div>
+<div data-role="footer">footer one</div>
+</div>
+<!-- 页面二 -->
+<div data-role="page" id="pagetwo">
+	 <div data-role="header">
+		<div data-role="navbar">
+		    <ul>
+		      <li><a href="#pageone" >首页</a></li>
+		      <li><a href="#anylink" class="ui-btn-active ui-state-persist">页面二</a></li>
+		      <li><a href="#anylink" data-rel="back">返回</a></li>
+		    </ul>
+ 		</div>
+	 </div> 
+		<div data-role="content">
+			<a href="#pageone" data-transition="flow" >pageone</a>
+			 <div data-role="content">
+		    <p>定位图标：</p>
+		    <a href="#link" data-role="button" data-icon="search" data-iconpos="notext">Top</a>
+		    <a href="#link" data-role="button" data-inline="true" data-icon="grid" >Right</a>
+		    <a href="#link" data-role="button" data-inline="true" data-icon="search" >Bottom</a>
+		    <a href="#link" data-role="button" data-inline="true" data-icon="search" >Left</a>
+		  </div>
+	</div>
+	<section>
+		<h2>有序列表：</h2>
+	    <ol data-role="listview">
+	      <li><a href="#">列表项</a></li>
+	      <li><a href="#">列表项</a></li>
+	      <li><a href="#">列表项</a></li>
+	    </ol>
+	    <h2>无序列表：</h2>
+	    <ul data-role="listview" data-inset="true" >
+	      <li><a href="#">圆角和外边距</a></li>
+	      <li><a href="#">列表项</a></li>
+	      <li><a href="#">列表项</a></li>
+	    </ul>
+	    <h2>列表分隔符：</h2>
+	    <ul data-role="listview">
+		 <li ><a href="#">欧洲</a></li>
+		  <li data-role="list-divider">法国</li>
+		  <li><a href="#">德国</a></li>
+		</ul>
+	</section>
+
+</div>
+<!-- 页面三 -->
+<div data-role="page" id="pagethree">
+	<div data-role="header" data-position="fixed"><a href="#" data-role="button" data-rel="back">返回</a><h1>欢迎来到我的主页</h1><a href="#pageone" class="ui-btn-right" data-role="button" >首页</a></div>
+
+	<div data-role="content">
+		<article>
+			<h1>The hidden danger of HTML frameworks</h1>
+			<p>我想，HTML 框架的产生，主要是为了那些完全地从头开发网站却不想花太多时间的人，或者不擅长 web 开发的人。很多 web 设计师不懂任何编程语言，单单关注像 Photoshop 或 Illustrator 之类的设计技巧上。没错。不过这不是我今天想讨论的……
+
+　　让我们翻过这一页，讨论当框架落入坏人之手会有什么潜在危险。坏人是指对编码和最佳实践了解不多的人，弄得乱七八糟而失去了可读性代码的那些人。在为客户再设计或修复网站时，我看到很多次了。他们不是故意这样做的，但是其结果伤害了用户应有的体验。更不要提在涉及到脚本或数据库时的某些严重问题了。
+
+　　就是 Fundation，bootstrap，HTML Kickstart 以及许多应该帮助他们的这些框架。这些框架在他们手中反而变成了危险武器。这些框架中，有很多包含了太多的、超出普通设计师或开发者所需的代码和套件。然而，非常专业的人知道，它需要用什么，需要删除什么。这常常不适用于缺乏技能的人们。他们或许上传了服务器上的所有文件，或冒险随意地删除了一些看起来不重要或不必要的文件。这种行为不一定会引起灾难。破坏网页上的某些元素或样式更加常见，很容易不费多少功夫就能修复。
+
+　　很多问题常常是由于框架自身的预建包引起的。它们包含了从带有样式表的 html 到脚本的各种各样的文件。有些文件包含了很多代码，甚至专业人士也需要大量时间才能看出某些代码行的意图。像自定义包很少有助于解决，不过它们经常被知道它们在干什么的那些人使用，而不是初学者。这是一个矛盾。有经验的专业人士能够产生适用于所有需求的自定义构建框架，而其他人将选择带有数百行或数千行代码的预建版本？20%？预建包应该只是包含需要的代码和套件，而不是所有。框架创建者应该明白，很多用户对于 web 开发了解甚少，因此他们（创建者）应该尽可能提供最少的方案。从最少开始，然后增加，而不是反过来。
+
+　　扔掉框架里不必要的东东不难，然而这不是它们的失败。它们应该只是一个工具。我认为责任在于 web 行业和我们。我们作为 web 行业社区，应该帮助这些人学习我们的手艺。我们应该教他们什么是最好的实践，教他们如何有效率地工作。</p>
+		</article>
+		<a href="#pageone" data-role="button" data-transition="pop">页面一</a>
+	</div>
+	<div data-role="footer"   id="pagethreefooter" data-corners="false" data-position="fixed" >
+	    <a href="#anylink" data-role="button" data-icon="home" data-corners="false" class="ui-btn-left" data-shadow="false">主页</a>
+	    <a href="#anylink" data-role="button" data-icon="grid" data-corners="false" data-shadow="false">菜单</a>
+	    <a href="#anylink" data-role="button" data-icon="back" data-corners="false" class="ui-btn-right" data-shadow="false">返回</a>
+	</div>
+</div>
+
+
+ <div date-role="page" id="pagefour" >
+	<div data-role="header" data-position="fixed">
+		<a href="#" data-role="button" data-rel="back">返回</a>
+		<h1>第四页</h1>
+		<a href="#pageone" class="ui-btn-right" data-role="button" >首页</a>
+	</div> 
+	<div data-role="content">
+	  <h2>我的通讯录</h2>
+	  <ul data-role="listview" data-autodividers="true" data-inset="true" data-filter="true" data-filter-placeholder="搜索姓名">
+	    <li><a href="#">Adele</a></li>
+	    <li><a href="#">Agnes</a></li>
+	    <li><a href="#">Albert</a></li>
+	    <li><a href="#">Billy</a></li>
+	    <li><a href="#">Bob</a></li>
+	    <li><a href="#">Calvin</a></li>
+	    <li><a href="#">Cameron</a></li>
+	    <li><a href="#">Chloe</a></li>
+	    <li><a href="#">Christina</a></li>
+	    <li><a href="#">Diana</a></li>
+	    <li><a href="#">Gabriel</a></li>
+	    <li><a href="#">Glen</a></li>
+	    <li><a href="#">Ralph</a></li>
+	    <li><a href="#">Valarie</a></li>
+	  </ul>
+	</div>
+	<div data-role="content">
+	    <div data-role="collapsible">
+	    <h4>A</h4>
+	    <ul data-role="listview">
+	      <li><a href="#">Adam</a></li>
+	      <li><a href="#">Angela</a></li>
+	    </ul>
+	  </div>
+
+	    <div data-role="collapsible">
+	    <h4>B</h4>
+	    <ul data-role="listview">
+	       <li><a href="#">Bill</a></li>
+	       <li><a href="#">Bob</a></li>
+	    </ul>
+	    </div>
+
+	    <div data-role="collapsible">
+	    <h4>C</h4>
+	    <ul data-role="listview">
+	      <li><a href="#">Calvin</a></li>
+	      <li><a href="#">Cameron</a></li>
+	      <li><a href="#">Christina</a></li>
+	    </ul>
+	    </div>
+	  </div>
+	<div data-role="footer"></div>
+</div>
+</body>
+</html>
