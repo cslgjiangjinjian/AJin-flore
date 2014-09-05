@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>品牌-汉诺威信息科技</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"> 
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> 
+</head>
+<body >
+<div id="outer">
+<div id="inner" style="position:relative;">
+<header class="brand_header">
+	<h1>品牌·汉诺威</h1>
+	<a href="index.html"><div class="brand_headimg titleimg"></div></a>
+</header>
+<section class="brand_main" id="brand_main">
+	<article>
+		<p>汉诺威信息科技有限公司是致力于中国领先的行业数字营销解决方案提供商。公司成立于2013年5月，总部位于苏州，在上海、广州、北京、珠海等地均设有分公司。</p>
+	</article>
+	<img class="brand_img01 animated" src="css/images/brand_01_02.png">
+</section>
+<section class="applictionapp">
+	<h2 class="h2_title">汉诺威应用APP</h2>
+	<article>
+		<h3 class="applictionh3  animated">核心的产品——“找房通”</h3>
+		<img class="zftlogo animated" src="css/images/zftlogo_03.png">
+		<p>房地产移动传媒应用系列产品已覆盖房地产数据，专注于打造中国地产第一移动传媒，致力于为房企营销提供最佳全媒体解决方案，找房通系列产品纵横交互，无缝穿越地产营销推广全过程。</p>
+	</article>
+	<img class="brand_img02 zftappimg animated" src="css/images/brand_02_03.png">
+	<article>
+		<h3>找房通APP系列产品包括：</h3>
+	</article>
+	<div class="line">
+		<div class="brand_roundtitle">
+			<p>找房通</p>
+			<span>楼书</span>
+		</div>
+	</div>
+	<img class="brand_img02 zftls animated" src="css/images/brand_03_02.png">
+	<div class="line">
+		<div class="brand_roundtitle">
+			<p>找房通</p>
+			<span>地产说</span>
+		</div>
+	</div>
+	<img class="brand_img02 zftdcs animated" src="css/images/brand_04_02.png">
+	<div class="line">
+		<div class="brand_roundtitle">
+			<p>找房通</p>
+			<span>市场</span>
+		</div>
+	</div>
+	<img class="brand_img02 zftsc animated" src="css/images/brand_05_02.png">
+	<h2 class="h2_title">汉诺威数据</h2>
+	<article>
+		<p>汉诺威信息科技与中国领先的独立第三方广告监测管理系统——秒针系统合作，依托秒针独特的三项核心技术云计算、云存储、人工智能技术对数字化广告进行评估，针对地产行业的独特属性，为地产行业客户提供中立、公正、科学、可靠的数据和有效的技术应用方案。</p>
+		<img class="brand_img03 hnwsj animated" src="css/images/brand_06_03.png">
+	</article>
+	<h2 class="h2_title">汉诺威移动</h2>
+	<article>
+		<p>汉诺威致力于与客户形成长期合作伙伴关系，专业开发基于LOS、Android、HTML5平台的移动应用策略规划、计划开发、推广、运营、维护的全程解决方案。</p>
+		<img class="brand_img04 hnwyd animated" src="css/images/brand_07_03.png">
+	</article>
+	<h2 class="h2_title">汉诺威社交</h2>
+	<article>
+		<p>汉诺威信息科技基于地产消费者行为管理模型,为客户提供更加高效的跨平台跨营销手段解决方案，帮助客户将多种营销手段与社交网络结合，做到效果的最大化。</p>	
+	</article>
+	<img class="brand_img02 hnwshejiao animated" src="css/images/brand_08_02.png">
+</section>
+</div>
+</div>
+<footer class="brand_footer">
+<a href="brand.html" class="cur">品牌</a><span></span>
+<a href="marketing.html">营销</a><span></span>
+<a href="retrospect.html">回望</a><span></span>
+<a href="team.html">团队</a>
+</footer>
+
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script>
+        var startX,//触摸时的坐标
+            startY,
+             x, //滑动的距离
+             y,
+             aboveY=0; //设一个全局变量记录上一次内部块滑动的位置 
+
+         var inner=document.getElementById("inner");
+         
+            function touchSatrt(e){//触摸
+                e.preventDefault();
+                var touch=e.touches[0];
+                startY = touch.pageY;   //刚触摸时的坐标       
+                
+            }
+            function touchMove(e){//滑动          
+                 e.preventDefault();        
+                 var  touch = e.touches[0];               
+                 y = touch.pageY - startY;//滑动的距离
+                //inner.style.webkitTransform = 'translate(' + 0+ 'px, ' + y + 'px)';  //也可以用css3的方式  
+                var topsum = aboveY+y;
+                if (topsum<0&&topsum>-2738) {
+                	inner.style.top=aboveY+y+"px"; //这一句中的   
+                };      
+            }  
+            function touchEnd(e){//手指离开屏幕
+              e.preventDefault();                   
+              aboveY=parseInt(inner.style.top);//touch结束后记录内部滑块滑动的位置 在全局变量中体现 一定要用parseInt()将其转化为整数字;
+              //alert(aboveY);
+              if (aboveY<-160) {
+              		$(".applictionh3").addClass("fadeInLeft");
+					$(".zftlogo").addClass("addfadeinright");
+              };
+              if (aboveY<-424) {
+              		//$(".zftappimg").addClass("animated_right").addClass("addfadeinright");
+              		$(".zftappimg").addClass("swing");
+              };
+              if (aboveY<-793) {
+              		$(".zftls").addClass("flip");
+              };
+               if (aboveY<-1042) {
+              		$(".zftdcs").addClass("flip");
+              };
+               if (aboveY<-1284) {
+              		$(".zftsc").addClass("flip");
+              };
+           	  if (aboveY<-1668) {
+              		$(".hnwsj").addClass("rotateIn");
+              };
+               if (aboveY<-2176) {
+              		$(".hnwyd").addClass("lightSpeedIn");
+              };
+               if (aboveY<-2570) {
+              		$(".hnwshejiao").addClass("bounce");
+              };
+              //alert(aboveY);
+            }
+             document.getElementById("outer").addEventListener('touchstart', touchSatrt,false);  
+             document.getElementById("outer").addEventListener('touchmove', touchMove,false);  
+             document.getElementById("outer").addEventListener('touchend', touchEnd,false);  
+    </script>
+</body>
+</html>
