@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+    body,img,div,ul,li{margin: 0;padding: 0;}
+		body, html {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+		#allmap{width:100%;overflow: hidden;height: 100%;position: absolute;top: 0;left: 0;z-index: 0;}
+		p{margin-left:5px; font-size:14px;}
+    .borderradius{border-radius: 15px; }
+    #mapbox{width: 100%;height: 100%;position: relative;}
+    #buildshow{width: 100%;height: 200px;overflow: hidden;position: absolute;z-index: 8; bottom: 0;left: 0;box-shadow: 0 -5px 5px rgba(0,0,0,0.5);display: none;}
+    #buildshow img{width: 100%;height: 200px;}
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=R35k3rnu0heqrAGBQ8qDGioh"></script>
+	<title>添加自定义覆盖物</title>
+</head>
+<body>
+<div id="mapbox">
+  <div id="allmap"></div>
+  <div id="buildshow"></div>
+</div>
+	
+
+</body>
+</html>
+
+<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/touch.js"></script>
+<script type="text/javascript">
+
+var markerArr = [{title:"银湖海岸城",content:'<div style="float:left;width:120px;">起价：5000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区文清大道</span> <br><br><a href="/House-show?id=23">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_51089f4bdf251.jpg" wdith="80px" height="75px"></div>',point:'120.591736|31.307004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"绿岛",content:'<div style="float:left;width:120px;">起价：6800 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区文清大道北侧（椰子大观园对面）</span> <br><br><a href="/House-show?id=8">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510cbb671095a.jpg" wdith="80px" height="75px"></div>',point:'121.591736|31.307004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"中南.森海湾",content:'<div style="float:left;width:120px;">起价：7600 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市高隆湾旅游大道</span> <br><br><a href="/House-show?id=12">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_51089eb396bdb.jpg" wdith="80px" height="75px"></div>',point:'120.791736|31.307004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"天御湾",content:'<div style="float:left;width:120px;">起价：4200 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文航路</span> <br><br><a href="/House-show?id=13">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_51089bb5d5a2e.jpg" wdith="80px" height="75px"></div>',point:'|',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"观澜雅苑",content:'<div style="float:left;width:120px;">起价：5000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区文清大道</span> <br><br><a href="/House-show?id=23">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_51089f4bdf251.jpg" wdith="80px" height="75px"></div>',point:'120.591736|32.307004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"海拓澜湾",content:'<div style="float:left;width:120px;">起价：10800 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市高隆湾旅游大道</span> <br><br><a href="/House-show?id=15">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_51089591df37b.jpg" wdith="80px" height="75px"></div>',point:'120.591736|31.507004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"东方·龙湾",content:'<div style="float:left;width:120px;">起价：11000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文清大道与商贸大道交汇处（文昌市财政局北侧）</span> <br><br><a href="/House-show?id=16">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/" wdith="80px" height="75px"></div>',point:'120.621736|31.407004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"龙禧湾偶寓",content:'<div style="float:left;width:120px;">起价：0 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区文府大道星蓝湾销售部(市政往南200米)</span> <br><br><a href="/House-show?id=18">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_5108892397125.jpg" wdith="80px" height="75px"></div>',point:'120.521736|31.307004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"白金海岸",content:'<div style="float:left;width:120px;">起价：9600 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜高隆湾旅游大道一环西白金海岸酒店2号楼一层大厅</span> <br><br><a href="/House-show?id=19">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_51088b505d8e0.jpg" wdith="80px" height="75px"></div>',point:'120.491736|31.507004',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"蓝湖海韵",content:'<div style="float:left;width:120px;">起价：7600 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市清澜开发区惠民路段北侧（现市委市政府旁）</span> <br><br><a href="/House-show?id=20">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_5107afef650a3.jpg" wdith="80px" height="75px"></div>',point:'110.79904|19.552826',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"椰海明珠",content:'<div style="float:left;width:120px;">起价：6980 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌清澜开发区商贸大道南侧（检察院旁边）</span> <br><br><a href="/House-show?id=21">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e428b11dfc.jpg" wdith="80px" height="75px"></div>',point:'110.806343|19.555509',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"鑫源锦程",content:'<div style="float:left;width:120px;">起价：6300 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文城镇文清大道289-1号（市人民法院附近）</span> <br><br><a href="/House-show?id=24">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201301/s_51089ff2db487.jpg" wdith="80px" height="75px"></div>',point:'110.793731|19.559222',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"左城右海",content:'<div style="float:left;width:120px;">起价：43000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文城镇文蔚路(市就业局对面)</span> <br><br><a href="/House-show?id=25">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_5111ee1759645.jpg" wdith="80px" height="75px"></div>',point:'110.763225|19.591205',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"天水星河",content:'<div style="float:left;width:120px;">起价：6200 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市文航大道南侧</span> <br><br><a href="/House-show?id=26">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/" wdith="80px" height="75px"></div>',point:'110.753847|19.637107',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"月亮城",content:'<div style="float:left;width:120px;">起价：6600 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌文城镇文航路中段</span> <br><br><a href="/House-show?id=27">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e3eaf02758.jpg" wdith="80px" height="75px"></div>',point:'110.759129|19.636834',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"同仁.红椰湾",content:'<div style="float:left;width:120px;">起价：7000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文清大道旁</span> <br><br><a href="/House-show?id=28">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/" wdith="80px" height="75px"></div>',point:'|',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"天成.夏湾拿",content:'<div style="float:left;width:120px;">起价：7680 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区惠民路16号</span> <br><br><a href="/House-show?id=29">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e3e24d319e.jpg" wdith="80px" height="75px"></div>',point:'110.811949|19.551353',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"平海.逸龙湾",content:'<div style="float:left;width:120px;">起价：13000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜高龙湾旅游大道经纬花园</span> <br><br><a href="/House-show?id=30">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e3cbdb456d.jpg" wdith="80px" height="75px"></div>',point:'110.827076|19.54362',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"海拓澜湾",content:'<div style="float:left;width:120px;">起价：10800 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市高隆湾旅游大道</span> <br><br><a href="/House-show?id=31">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e3aa4c8b88.jpg" wdith="80px" height="75px"></div>',point:'|',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"宏图.高隆湾壹号",content:'<div style="float:left;width:120px;">起价：17346 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市高隆湾高隆路A号</span> <br><br><a href="/House-show?id=32">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e39b023579.jpg" wdith="80px" height="75px"></div>',point:'110.839168|19.548747',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"同创.美兰海岸",content:'<div style="float:left;width:120px;">起价：8000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区高隆湾白金路</span> <br><br><a href="/House-show?id=33">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e36e9de867.jpg" wdith="80px" height="75px"></div>',point:'110.812398|19.550161',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"阳光东海岸",content:'<div style="float:left;width:120px;">起价：5200 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区商贸大道（南方电网对面）</span> <br><br><a href="/House-show?id=34">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e32146ea45.jpg" wdith="80px" height="75px"></div>',point:'110.810997|19.557459',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"金椰园",content:'<div style="float:left;width:120px;">起价：5500 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌文昌清澜开发区文府路（市政府旁）</span> <br><br><a href="/House-show?id=35">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e30c19ec19.jpg" wdith="80px" height="75px"></div>',point:'110.804709|19.548253',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"波溪利亚湾",content:'<div style="float:left;width:120px;">起价：11700 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜区文府路299号（毗邻市政府行政中心）</span> <br><br><a href="/House-show?id=36">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201302/s_510e2f4214df8.jpg" wdith="80px" height="75px"></div>',point:'110.817231|19.536704',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"海的理想",content:'<div style="float:left;width:120px;">起价：12000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文府路</span> <br><br><a href="/House-show?id=37">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/" wdith="80px" height="75px"></div>',point:'110.814554|19.519371',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"八一.益园",content:'<div style="float:left;width:120px;">起价：5600 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜开发区白金路</span> <br><br><a href="/House-show?id=38">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/" wdith="80px" height="75px"></div>',point:'110.821812|19.546771',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"壹品国际",content:'<div style="float:left;width:120px;">起价：8200 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文城镇清澜开发区疏港大道</span> <br><br><a href="/House-show?id=39">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_516cbdaee39df.jpg" wdith="80px" height="75px"></div>',point:'110.82819|19.550774',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"叠翠苑",content:'<div style="float:left;width:120px;">起价：6980 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市清澜区文清大道（椰子大观园正对面）</span> <br><br><a href="/House-show?id=40">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201311/s_527b873ceef84.jpg" wdith="80px" height="75px"></div>',point:'110.803505|19.557144',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"金山国际",content:'<div style="float:left;width:120px;">起价：6090 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文府路</span> <br><br><a href="/House-show?id=41">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_5167bd8f5b942.jpg" wdith="80px" height="75px"></div>',point:'110.80584|19.55332',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"森海湾",content:'<div style="float:left;width:120px;">起价：7600 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市高隆湾旅游大道西侧</span> <br><br><a href="/House-show?id=47">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_515a8931416d6.jpg" wdith="80px" height="75px"></div>',point:'110.83164|19.548287',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"白金海岸",content:'<div style="float:left;width:120px;">起价：9000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市清澜开发区高隆湾旅游大道一环西</span> <br><br><a href="/House-show?id=48">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_515eef07be8ff.jpg" wdith="80px" height="75px"></div>',point:'110.820752|19.53851',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"宏图高龙湾1号",content:'<div style="float:left;width:120px;">起价：17346 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市高隆湾高隆路A号 </span> <br><br><a href="/House-show?id=49">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_515ff7ea67ab7.jpg" wdith="80px" height="75px"></div>',point:'110.831352|19.548219',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"东方龙湾",content:'<div style="float:left;width:120px;">起价：11000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市文清大道与商贸大道交汇处（文昌市财政局北）</span> <br><br><a href="/House-show?id=50">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_515fd4ba30fe1.jpg" wdith="80px" height="75px"></div>',point:'110.818453|19.535614',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"乐清湾",content:'<div style="float:left;width:120px;">起价：10000 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：海南省文昌市高隆湾旅游开发区旅游大道乐清湾营销中心</span> <br><br><a href="/House-show?id=51">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_5163b9689e964.jpg" wdith="80px" height="75px"></div>',point:'110.834047|19.555611',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}},{title:"海拓澜湾",content:'<div style="float:left;width:120px;">起价：10800 元/平米<br><br><span style="line-height:20px;display:inlin-block;">地址：文昌市高隆湾旅游大道</span> <br><br><a href="/House-show?id=52">查看楼盘详细>></a></div><div style="float:right;width:80px;"><img src="/Uploads/House/201304/s_5163d26739992.jpg" wdith="80px" height="75px"></div>',point:'110.832772|19.546243',isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}]
+	// 百度地图API功能
+	var mpme = new BMap.Map("allmap");
+	mpme.centerAndZoom(new BMap.Point(120.591736,31.307004), 15);
+	mpme.enableScrollWheelZoom();
+  mpme.addControl(new BMap.NavigationControl());
+  //添加地图平移缩放控件
+
+	// 复杂的自定义覆盖物
+    function ComplexCustomOverlay(point, text, mouseoverText){
+      this._point = point;
+      this._text = text;
+      this._overText = mouseoverText;
+    }
+    ComplexCustomOverlay.prototype = new BMap.Overlay();
+    ComplexCustomOverlay.prototype.initialize = function(map){
+      this._map = map;
+      var div = this._div = document.createElement("div");
+      div.style.position = "absolute";
+      div.style.zIndex = -BMap.Overlay.getZIndex(this._point.lat);
+      div.style.backgroundColor = "#45B431";
+      div.style.border = "2px solid #fff";
+      div.style.color = "white";
+      div.style.height = "18px";
+      div.style.padding = "3px 15px";
+      div.style.lineHeight = "18px";
+      div.style.whiteSpace = "nowrap";
+      div.style.MozUserSelect = "none";
+      div.style.fontSize = "12px"
+      div.className = "borderradius";
+      var span = this._span = document.createElement("span");
+      div.appendChild(span);
+      span.appendChild(document.createTextNode(this._text));      
+      var that = this;
+
+      var arrow = this._arrow = document.createElement("div");
+      arrow.style.background = "url(css/images/xiabiao.png) no-repeat";
+      arrow.style.position = "absolute";
+      arrow.style.width = "18px";
+      arrow.style.height = "11px";
+      arrow.style.top = "23px";
+      arrow.style.left = "55px";
+      arrow.style.overflow = "hidden";
+      div.appendChild(arrow);
+      div.onmouseover = function(){
+        this.style.backgroundColor = "#30A6DD";
+        this.style.borderColor = "#fff";
+        //this.getElementsByTagName("span")[0].innerHTML = that._overText;
+        arrow.style.backgroundPosition = "0 -12px";
+      }
+      //自定义的信息窗口（图片展示）
+       div.addEventListener("touchstart", function() {        
+          $("#buildshow").html("<img src=\"css/images/wk.jpg\">").show();
+       });
+       /*mpme.addEventListener("touchstart",function(){
+        $("#buildshow").hide();
+
+       });*/
+     div.onmouseout = function(){
+        this.style.backgroundColor = "#45B431";
+        this.style.borderColor = "#fff";
+        //this.getElementsByTagName("span")[0].innerHTML = that._text;
+        arrow.style.backgroundPosition = "0px 0px";
+      }
+      mpme.getPanes().labelPane.appendChild(div);
+      return div;
+    }
+    ComplexCustomOverlay.prototype.draw = function(){
+      var map = this._map;
+      var pixel = map.pointToOverlayPixel(this._point);
+      this._div.style.left = pixel.x - parseInt(this._arrow.style.left) + "px";
+      this._div.style.top  = pixel.y - 37 + "px";
+    }
+    var txt = "银湖海岸城";
+        //,mouseoverTxt = txt + " " + parseInt(Math.random() * 1000,10) + "套" 
+    //var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(120.591736,31.307004), "银湖海岸城",mouseoverTxt);
+    //mpme.addOverlay(myCompOverlay);
+      var pointx = 120.591736;
+      var pointy = 31.307004;
+      var myCompOverlay = new ComplexCustomOverlay(new BMap.Point(pointx,pointy), txt);
+      mpme.addOverlay(myCompOverlay);
+
+    mpme.addEventListener("dragend",function(){
+      $("#buildshow").hide();
+        var bounds = mpme.getBounds(); //得到地图边界有maxx minx maxy miny
+        var sw = bounds.getSouthWest();
+        var ne = bounds.getNorthEast();
+        //alert("sw.lat:"+sw.lat+"sw.lng:"+sw.lng+"ne.lat:"+ne.lat+"ne.lng:"+ne.lng);
+        //mpme.clearOverlays();    //清空覆盖物
+    for (var i = 0; i < markerArr.length; i++) {
+        var json=markerArr[i];
+        var txt2 = markerArr[i].title;
+        var pintx = markerArr[i].point.split('|')[0];
+        var pinty = markerArr[i].point.split('|')[1];
+        if (pintx<=ne.lng&&pintx>=sw.lng&&pinty<=ne.lat&&pinty>=sw.lat) {
+           mpme.addOverlay(new ComplexCustomOverlay(new BMap.Point(pintx, pinty), txt2));//在可视区域加载覆盖物
+        };
+       
+        }  
+      });
+</script>
