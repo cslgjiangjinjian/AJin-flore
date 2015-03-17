@@ -1,0 +1,109 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td { margin: 0; padding: 0; }
+img { border: 0;display: block; }
+li { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%;}
+a{ text-decoration:none; color:#666;}
+body { color:#666; font:14px/1.5 Hiragino Sans GB,Arial,Helvetica,Microsoft YaHei,sans-serif; min-width:320px; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+.fl{float: left;}
+.fr{float: right;}
+.cb{clear: both;}
+/* ---------------首页------------- */
+/* 导航 */
+.uolor_nav{width: 100%;height: 44px;padding-top: 16px;background: #f2f2f2;border-bottom: 1px solid #ccc;}
+.u_c_nav{width: 960px;margin: 0 auto;}
+.u_c_nav div{line-height: 30px;}
+.u_c_nav div ul li{float: left;padding: 0 10px;margin: 0 10px;}
+.u_c_nav img{display: inline-block;}
+.serach div{float: left;}
+.serach a{float: left;padding: 0 10px;}
+/* 正文 */
+.uolor_content{width: 970px;margin: 0 auto;}
+.moretoshow{width: 100%;border-top: 2px solid #666;margin-top: 30px;}
+.mts_title{font-size: 26px;}
+.mts_nav{margin-top: 7px;}
+.mts_nav ul li{float: left;padding: 0 10px;border-radius: 3px;background: #9c0;margin: 0 3px;}
+.mts_nav ul li:hover{background: rgba(153,204,0,.8);}
+.mts_nav ul li a{color: #fff;}
+.mts_c{width: 980px;padding-bottom: 30px;color: #cbcbcb;}
+.mts_post{position: relative;width: 236px;border: 1px solid #ccc;}
+.mts_post_title{position: absolute;bottom: 0;left: 0;width: 100%;height: 60px;background: #fff;text-align: center;color: #000;font-size: 20px;line-height: 60px;font-weight: 700;display: none;}
+.mts_posts{float: left;margin:0 5px 20px 0;}
+.mts_posts ul li:first-child span{font-weight: 700;}
+/* 明星拍摄计划 */
+.msp_nav{border-top: 2px solid #9c3;}
+.msp_title{font-size: 26px;}
+.msp_places{margin-top: 7px;}
+.msp_places ul li{float: left;padding: 0 10px;border-right: 1px solid #ccc;}
+.msp_places ul li:last-child{border-right: none;}
+.msp_places ul li a:hover{color: #f09;}
+.msp_post{position: relative;border: 1px solid #ccc;width: 154px;}
+.msp_posts{float: left;margin:0 5px 20px 0;}
+.msp_posts ul li{color: #cbcbcb;}
+.msp_posts ul li:first-child span a{font-weight: 700;}
+.msp_posts ul li:first-child span a:hover{color: #f09;text-decoration: underline;}
+.msp_post_title{position: absolute;bottom: 0;left: 0;width: 100%;height: 40px;background: #fff;text-align: center;color: #000;font-size: 18px;line-height: 40px;font-weight: 700;display: none;}
+/* 机构招募 */
+.recruitment{border-top: 2px solid #000;margin-top: 30px;}
+.recruit_title{font-size: 26px;}
+.recruit_nav{margin-top: 7px;}
+.recruit_nav a:hover{color: #f09;}
+.recruit_posts{float: left;margin: 0 5px 20px 0;}
+.recruit_post img{border: 1px solid #ccc;width: 154px;}
+.recruit_post p a:hover{color: #f09;}
+/* 行业明星 */
+.fieldsstar{border-top: 2px solid #000;margin-top: 30px;}
+.fieldsstar_title{font-size: 26px;}
+.fieldsstar_nav{margin-top: 7px;}
+.fs_post{width: 132px;position: relative;}
+.fs_posts{float: left;margin: 0 5px 5px 0;}
+.fs_posts p a{font-size: 20px;}
+.fs_posts p a:hover{text-decoration: underline;}
+.jobs{position: absolute;bottom: 0;left: 0;width: 100%;height: 30px;background: #fff;text-align: center;color: #fff;font-size: 16px;line-height: 30px;font-weight: 700;display: none;border-radius: 3px;background: #f09;}
+/* 机构推荐 */
+.recommend{border-top: 2px solid #000;}
+.recommend div{font-size: 26px;}
+.rec_posts ul li a{font-weight: 700;}
+.rec_posts ul li a:hover{color: #f09;}
+.rec_post{border: 1px solid #ccc;width: 130px;}
+.rec_posts{float: left;margin: 0 5px 20px 0;}
+.rec_posts ul li:nth-child(2) span{color: #f09;}
+
+/* album */
+.album_contents{width: 1024px;margin: 0 auto;text-align: center;}
+.album_myinfo{display: inline-block;margin: 20px 0;text-align: left;}
+.album_info{padding-left: 20px;}
+.album_info ul li{line-height: 26px;}
+.album_info ul li:first-child{font-size: 22px;}
+.album_headimg img{width: 132px;height: 142px;}
+.album_posts{width: 240px;height: 240px;margin: 0 21px 25px 0;position: relative;float: left;}
+.album_posts img{border-radius: 5px;}
+.album_post{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: rgba(0,0,0,0.5);text-align: center;line-height: 240px;color: #fff;font-size: 18px;display: none;border-radius: 5px;}
+.album_c{width: 1050px;}
+.album_footer{text-align: center;margin: 20px auto;}
+/* works */
+.works_contents{width: 1024px;margin: 0 auto;text-align: center;}
+.works_info{display: inline-block;margin: 20px 0;}
+.works_info a{font-size: 38px;}
+.works_lists{text-align: center;}
+.works_posts{margin: 0 auto 10px auto;}
+.works_posts img{margin: 0 auto;}
+.comment_contents{width: 800px;height: 130px;}
+.comment_submit{width: 80px;height: 30px;}
+.comments_lists{width: 800px;text-align: left;margin: 0 auto;}
+.comments_lists ul{float: left;}
+.comments_lists li{float: left;width: 100%;}
+.comments_lists li div{width: 100%;float: left;}
+.comments_lists li span{float: left;}
+.comments_lists li p{float: left;}
+
+/* ---------footer----------- */
+#footer{width: 100%;height: 348px;background:none repeat scroll 0% 0% #888;}
+#footer-box{width: 100%;height: 280px;border-top: 1px solid #727272;border-bottom:1px solid #727272; }
+#footer-contents{width: 960px;height: 280px;margin: 0 auto;}
+#footer-contents ul{width: 150px;height: 250px;padding: 30px 0 0 40px;display: block;float: left;}
+#footer-contents ul h3{width: 150px;height: 17px;color: #fff;font-size: 12px;font-weight: bold;margin-bottom: 10px;font-size: "微软雅黑",Arial,"宋体","sans-serif normal";line-height: 17px;text-align: left;}
+#footer-contents ul li{width:150px;height:36px;display:block;}
+#footer-contents ul li a{width: 150px;height: 36px;color: #bcbcbc;font-size: 12px;font-weight: bold;margin-bottom: 10px;font-size: "微软雅黑",Arial,"宋体","sans-serif normal";line-height: 36px;text-align: left;display: block;}
+#footer-bottom{width:960px;height: 48px;padding: 18px 0 0 0;margin: 0 auto;}
+#footer-bottom p{text-align: right;font-size: 12px;font-size: "微软雅黑",Arial,"宋体","sans-serif normal";color: #666;}
+/* -------footer end ------------------ */

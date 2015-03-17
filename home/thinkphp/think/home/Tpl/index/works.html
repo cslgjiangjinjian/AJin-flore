@@ -1,0 +1,64 @@
+<include file="Public:head" />
+<!--正文-->
+	<div class="works_contents">
+		<div class="works_info">
+			<a href="album.html">法越鑫</a>
+		</div>
+		<div class="works_lists">
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/636696397337325376.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/1176283927691812002.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/2453617372004583189.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/2843460214748930054.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/2869637387583213756.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/6630468531861434762.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/6630886346280027184.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/6630894042861421577.jpg"></a>
+			</div>
+			<div class="works_posts">
+				<a href="#"><img src="__TMPL__/Public/images/works/6630896241884677100.jpg"></a>
+			</div>
+		</div>
+		<div class="works_comments">
+			<form action='__ACTION__'>
+				<textarea class="comment_contents" name="content"></textarea><br />
+				<input type="submit" class="comment_submit"  value="提交" />
+			</form>
+			
+		</div>
+		<div class="comments_lists">
+		
+			
+		
+				
+
+			
+			<ul>
+				
+				<volist name="list" id="aa" key='k'>
+				<li><div><span>{$aa['userid']}</span><p>{$aa['content']}</p></div></li>
+				</volist>
+			</ul>
+			<div class="cb"></div>
+		</div>
+	</div>
+
+	<footer class="album_footer">
+		<p>©<span>法越鑫</span> | Powered by Uolor</p>
+	</footer>
+</body>
+</html>

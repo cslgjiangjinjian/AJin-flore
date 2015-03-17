@@ -1,0 +1,1288 @@
+[ 2015-03-11T10:03:00+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:03:33+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:03:33+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:03:34+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:03:34+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:03:34+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:03:35+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:03:35+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:08:47+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:09:29+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:09:29+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-11T10:09:30+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:09:35+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:09:36+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:09:36+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:09:36+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:22+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:25+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:26+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:26+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:27+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:27+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:28+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:28+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:29+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:29+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:29+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:29+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:30+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-11T10:20:30+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:30+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:30+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:31+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:31+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:31+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-03-11T10:20:31+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:32+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:32+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:32+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:32+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:20:33+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-03-11T10:20:40+08:00 ] 0.0.0.0 /think/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_filter ] --START--
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 40 行.
+NOTIC: [8] Use of undefined constant APP_TMPL_PATH - assumed 'APP_TMPL_PATH' D:\phpStudy\WWW\ThinkPHP\Lib\Behavior\ContentReplaceBehavior.class.php 第 47 行.
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-03-11T10:46:09+08:00 ] 0.0.0.0 /think/index.php/user
+ERR: 无法加载模块:user
+
+[ 2015-03-11T10:50:29+08:00 ] 0.0.0.0 /think/index.php/index/user
+ERR: 无法加载模块:index
+
+[ 2015-03-11T10:50:37+08:00 ] 0.0.0.0 /think/index.php/index/user
+ERR: 无法加载模块:index
+
+[ 2015-03-11T10:50:38+08:00 ] 0.0.0.0 /think/index.php/index/user
+ERR: 无法加载模块:index
+
+[ 2015-03-11T10:51:31+08:00 ] 0.0.0.0 /think/index.php/Index/suer12
+ERR: 非法操作:suer12
+
+[ 2015-03-11T10:51:51+08:00 ] 0.0.0.0 /think/index.php/index/user
+ERR: 无法加载模块:index
+
+[ 2015-03-11T10:51:52+08:00 ] 0.0.0.0 /think/index.php/user
+ERR: 无法加载模块:user
+
+[ 2015-03-11T11:23:39+08:00 ] 0.0.0.0 /think/index.php/index/test
+ERR: 非法操作:test
+
+[ 2015-03-11T11:24:30+08:00 ] 0.0.0.0 /think/index.php/index/test
+ERR: 模板不存在[./home/Tpl/Index/test.html]
+
+[ 2015-03-11T15:17:42+08:00 ] 0.0.0.0 /think/index.php/index%E3%80%81index
+ERR: 无法加载模块:Index、index
+
+[ 2015-03-11T15:53:08+08:00 ] 0.0.0.0 /think/index.php/User/index
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:22:45+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:22:46+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:23:43+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:23:43+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:23:44+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:09+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:10+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:10+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:12+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:13+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:13+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:13+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:23+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:23+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:24:23+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:26:21+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:28:16+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:28:48+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:28:48+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:28:49+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:28:49+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:01+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:06+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:07+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:07+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:18+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:18+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:19+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:19+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:19+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:19+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:19+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:20+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:20+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:21+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:21+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:21+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:22+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:22+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:22+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:22+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:23+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:38+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:38+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:49+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:49+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:55+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:29:55+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:30:04+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:30:04+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:30:04+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:41:20+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:41:21+08:00 ] 0.0.0.0 /think/index.php/User/user
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:18+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:19+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:19+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:24+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:24+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:24+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:25+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T16:46:25+08:00 ] 0.0.0.0 /think/index.php/User/users
+ERR: XML标签语法错误
+
+[ 2015-03-11T17:24:44+08:00 ] 0.0.0.0 /think/index.php/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:24:44+08:00 ] 0.0.0.0 /think/index.php/Index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:24:44+08:00 ] 0.0.0.0 /think/index.php/Index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:27:25+08:00 ] 0.0.0.0 /think/index.php/Index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:27:25+08:00 ] 0.0.0.0 /think/index.php/Index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:27:25+08:00 ] 0.0.0.0 /think/index.php/Index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:33:01+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:33:01+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:33:01+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:33:08+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:33:08+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:33:08+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:35:26+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:35:26+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:35:26+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:35:47+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:37:15+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:37:15+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:37:15+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:37:20+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:37:20+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:37:20+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:38:34+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:38:34+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:38:34+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:39:53+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:39:53+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:39:53+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:40:49+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:40:49+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:40:49+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:40:50+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:40:50+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:40:50+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:40+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:40+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:40+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:41+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:42+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:50+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:50+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:50+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:51+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:51+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:51+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:51+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:41:51+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:41:51+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:15+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:15+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:15+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:16+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:16+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:16+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:17+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:17+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:17+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:18+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:18+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:18+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:19+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:19+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:19+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:20+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:20+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:20+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:21+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:21+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:21+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:23+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:42:23+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:42:23+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:50+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:43:50+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:50+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:51+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:43:51+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:51+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:51+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:43:51+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:51+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:52+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:43:52+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:52+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:53+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:43:53+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:53+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:57+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:43:57+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:43:57+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:44:04+08:00 ] 0.0.0.0 /think/index.php/index/home/Tpl/Public/css/main.css
+ERR: 非法操作:home
+
+[ 2015-03-11T17:44:04+08:00 ] 0.0.0.0 /think/index.php/index/js/album.js
+ERR: 非法操作:js
+
+[ 2015-03-11T17:44:04+08:00 ] 0.0.0.0 /think/index.php/index/js/jquery-1.9.1.min.js
+ERR: 非法操作:js
+
