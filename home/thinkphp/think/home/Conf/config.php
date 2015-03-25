@@ -16,7 +16,6 @@ if(!defined('THINK_PATH')) exit();
 	'ERROR_MESSAGE'			=>'页面错误！请稍后再试~',
 	
 	
-	
 	'HTML_CACHE_ON'         =>  FALSE, // 开启静态缓存
 	'APP_DEBUG'					=>true,
 	'URL_CASE_INSENSITIVE'		=>true,

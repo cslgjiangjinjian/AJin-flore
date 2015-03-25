@@ -3,23 +3,24 @@
 <head>
 <meta charset="utf-8">
 <link href="__TMPL__/Public/css/main.css" rel="stylesheet" />
+<link href="__TMPL__/Public/css/uploadify.css" rel="stylesheet" />
 <title>有乐</title>
 </head>
 <body>
 	<nav class="uolor_nav">
 		<div class="u_c_nav">
-			<img src="__TMPL__/Public/images/nav_logo.jpg" class="logo">
+			<a href="__URL__/index?d=<?php echo ($outinfo_userid); ?>"><img src="__TMPL__/Public/images/nav_logo.jpg" class="logo"></a>
 			<div class="fr">
 				<ul class="fl">
 					<li><a href="#1">展示</a></li>
 					<li><a href="#2">人才库</a></li>
 					<li>个人服务</li>
 					<li>机构服务</li>
-					<li><a href="#3">聚娇</a></li>
+					<li><a href="__URL__/upload?d=<?php echo ($sm["userid"]); ?>">相册库</a></li>
 				</ul>
 				<div class="serach fr">
 					<div><input type="text" /><div class="serach_icon"></div></div>
-					<a href="#4">注册</a>
+					<a href="__URL__/login">注册</a>
 					<a href="__URL__/login"><?php echo ($outinfo_name?$outinfo_name:'登录'); ?></a>
 				</div>
 			</div>
@@ -52,13 +53,13 @@
 	<!-- 小的整体 -->
 	<?php if(is_array($show_more)): $i = 0; $__LIST__ = array_slice($show_more,0,12,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$sm): $mod = ($i % 2 );++$i;?><div class="mts_posts">
 			<div class="mts_post uc_post">
-				<a href="__URL__/album?id=<?php echo ($sm["Id"]); ?>">
+				<a href="__URL__/album?d=<?php echo ($sm["userid"]); ?>">
 					<img src="__TMPL__/Public/images/moretoshow/<?php echo ($sm["imgurl"]); ?>">
 					<div class="mts_post_title"><?php echo ($sm["describe"]); ?></div>
 				</a>
 			</div>
 			<ul>
-				<li>发布人/<span><a href="__URL__/album?id=1"><?php echo ($sm["name"]); ?></a></span></li>
+				<li>发布人/<span><a href="__URL__/album?d=<?php echo ($sm["userid"]); ?>"><?php echo ($sm["name"]); ?></a></span></li>
 				<li>职业/<span><?php echo ($sm["type"]); ?></span></li>
 				<li>点击量/<span><?php echo ($sm["amount"]); ?></span></li>
 			</ul>
@@ -245,7 +246,18 @@
 		<div class="cb"></div>
 	</div>
 	<div class="msp_c">
-		<div class="msp_posts">
+		<?php if(is_array($msp)): $i = 0; $__LIST__ = array_slice($msp,0,6,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="msp_posts">
+				<div class="msp_post uc_post">
+					<img src="__TMPL__/Public/images/msp/<?php echo ($vo["imgurl"]); ?>">
+					<div class="msp_post_title"><?php echo ($vo["describe"]); ?></div>
+				</div>
+				<ul>
+					<li>发布人/<span><a href="#"><?php echo ($vo["name"]); ?></a></span></li>
+					<li>职业/<span><?php echo ($vo["type"]); ?></span></li>
+					<li>点击量/<span><?php echo ($vo["amount"]); ?></span></li>
+				</ul>
+			</div><?php endforeach; endif; else: echo "" ;endif; ?>
+		<!--<div class="msp_posts">
 			<div class="msp_post uc_post">
 				<img src="__TMPL__/Public/images/msp/img2_mokoshow_9423735.jpg">
 				<div class="msp_post_title">MSP邓琳颖</div>
@@ -310,7 +322,7 @@
 				<li>职业/<span>演员</span></li>
 				<li>点击量/<span>156801</span></li>
 			</ul>
-		</div>
+		</div>-->
 	</div>
 	<div class="u_ad">
 		<a href="#">
@@ -334,7 +346,13 @@
 	</div>
 	<div class="recruit_cb">
 		<div class="recruit_c">
-			<div class="recruit_posts">
+			<?php if(is_array($recruit)): $i = 0; $__LIST__ = array_slice($recruit,0,6,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="recruit_posts">
+					<div class="recruit_post">
+						<img src="__TMPL__/Public/images/recruit/<?php echo ($vo["imgurl"]); ?>">
+						<p> > <a href="#"><?php echo ($vo["describe"]); ?></a></p>
+					</div>
+				</div><?php endforeach; endif; else: echo "" ;endif; ?>
+			<!--<div class="recruit_posts">
 				<div class="recruit_post">
 					<img src="__TMPL__/Public/images/recruit/img2_mokoshow_9174923.jpg">
 					<p> > <a href="#">路易斯·王 影像机构</a></p>
@@ -369,7 +387,7 @@
 					<img src="__TMPL__/Public/images/recruit/img2_mokoshow_9174923.jpg">
 					<p> > <a href="#">路易斯·王 影像机构</a></p>
 				</div>
-			</div>
+			</div>-->
 		</div>
 		<div class="cb"></div>
 	</div>
@@ -380,7 +398,14 @@
 	</div>
 	<div class="fs_cb">
 		<div class="fs_c fl">
-			<div class="fs_posts">
+			<?php if(is_array($fieldsstar)): $i = 0; $__LIST__ = array_slice($fieldsstar,0,14,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="fs_posts">
+					<div class="fs_post uc_post">
+						<img src="__TMPL__/Public/images/fieldsstar/<?php echo ($vo["imgurl"]); ?>">
+						<div class="jobs"><?php echo ($vo["type"]); ?></div>
+					</div>
+					<p><a href="#"><?php echo ($vo["name"]); ?></a></p>
+				</div><?php endforeach; endif; else: echo "" ;endif; ?>
+			<!--<div class="fs_posts">
 				<div class="fs_post uc_post">
 					<img src="__TMPL__/Public/images/fieldsstar/img2_des_9432437.jpg">
 					<div class="jobs">模特儿</div>
@@ -477,7 +502,7 @@
 					<div class="jobs">模特儿</div>
 				</div>
 				<p><a href="#">王梦实</a></p>
-			</div>
+			</div>-->
 			
 		</div>
 		<div class="cb"></div>
@@ -487,7 +512,17 @@
 	</div>
 	<div class="rec_cb">
 		<div class="rec_c fl">
-			<div class="rec_posts">
+			<?php if(is_array($recommend)): $i = 0; $__LIST__ = array_slice($recommend,0,7,true);if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="rec_posts">
+					<div class="rec_post">
+						<img src="__TMPL__/Public/images/recommend/<?php echo ($vo["imgurl"]); ?>">
+					</div>
+					<ul>
+						<li>><a href="#"><?php echo ($vo['describe']); ?></a></li>
+						<li><span>VIP </span><?php echo ($vo['type']); ?></li>
+						<li>粉丝数量<span><?php echo ($vo['amount']); ?></span></li>
+					</ul>
+				</div><?php endforeach; endif; else: echo "" ;endif; ?>
+			<!--<div class="rec_posts">
 				<div class="rec_post">
 					<img src="__TMPL__/Public/images/recommend/img2_des_9804702.jpg">
 				</div>
@@ -556,7 +591,7 @@
 					<li><span>VIP </span>电影摄影</li>
 					<li>粉丝数量<span>273</span></li>
 				</ul>
-			</div>
+			</div>-->
 		</div>
 		<div class="cb"></div>
 	</div>

@@ -1,0 +1,41 @@
+<include file="Public:head" />
+
+<div class="uolor_upload">
+	<ul>
+		<li>
+			<div class="upload_addimg">
+				<img src="__TMPL__/Public/images/addimg.png" />
+				<form  enctype="multipart/form-data" >
+					<input type="file"  name="photo1" class="imgupload" id='imgupload' accept="image/*"  multiple="true"/>
+					
+				</form>
+			</div>
+			<textarea class="upload_desc" placeholder="描述"></textarea>
+			<input class="upload_labels"  placeholder="标签"/>
+		</li>
+		<li>
+			<div class="upload_addimg">
+				<img src="__TMPL__/Public/images/addimg.png" />
+				<form  enctype="multipart/form-data">
+					<input type="file" name="photo2" class="imgupload" accept="image/*" />
+				</form>
+			</div>
+			<textarea class="upload_desc" placeholder="描述"></textarea>
+			<input class="upload_labels"  placeholder="标签"/>
+		</li>
+	</ul>
+	
+	
+</div>
+<script type="text/javascript" src="__TMPL__/Public/js/jquery-1.9.1.min.js"></script>
+<script src="__TMPL__/Public/js/jquery.placeholder.min.js"></script>
+<script type="text/javascript" src="__TMPL__/Public/js/jquery.uploadify.min.js"></script>
+<script type="text/javascript" src="__TMPL__/Public/js/main.js"></script>
+<script type="text/javascript" src="__TMPL__/Public/js/upload.js"></script>
+<script>
+$(function(){
+	$('input,textarea').placeholder();
+});
+</script>
+</body>
+</html>

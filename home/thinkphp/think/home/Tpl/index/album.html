@@ -7,18 +7,26 @@
 			</div>
 			<div class="album_info fl">
 				<ul>
-					<li>法越鑫</li>
+					<li>{$userinfo['username']}</li>
 					<li>www.uolor.com/fayuexin</li>
-					<li>北京 沈阳</li>
-					<li>时装摄影 人像摄影 摄影相关</li>
-					<li>联系方式:2582253358@qq.com</li>
+					<li>{$userinfo['localplace']}</li>
+					<li>{$userinfo['labels']}</li>
+					<li>联系方式:{$userinfo['connection']}</li>
 				</ul>
 			</div>
 			<div class="cb"></div>
 		</div>
 		<div class="album_cb">
 			<div class="album_c fl">
-				<div class="album_posts">
+				<volist name='albums' id='vo' offset='0' length='12'>
+					<div class="album_posts">
+						<a href="__URL__/works?ad={$vo['Id']}&d={$vo.userid}">
+							<img src="__TMPL__/Public/images/album/{$vo['imgrl']}">
+							<div class="album_post">{$vo['datetime']}</div>
+						</a>
+					</div>
+				</volist>
+				<!--<div class="album_posts">
 					<a href="__URL__/works?id=2">
 						<img src="__TMPL__/Public/images/album/1.jpg">
 						<div class="album_post">2015-03-05</div>
@@ -89,7 +97,7 @@
 						<img src="__TMPL__/Public/images/album/2.jpg">
 						<div class="album_post">2015-03-05</div>
 					</a>
-				</div>
+				</div>-->
 			</div>
 			<div class="cb"></div>
 		</div>

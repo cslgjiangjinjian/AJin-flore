@@ -1,0 +1,186 @@
+[ 2015-03-18T10:50:45+08:00 ] 0.0.0.0 /think/
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:50:49+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:50:51+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=3
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:50:53+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:51:07+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=12
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:51:10+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=11
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:54:03+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:56:41+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:57:22+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T10:57:24+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T11:00:05+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=3
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T11:00:10+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=4
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T11:00:14+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=12
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T11:24:19+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T11:24:22+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T11:24:25+08:00 ] 0.0.0.0 /think/index.php/index/album?d=2
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T11:24:26+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=2
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:36:43+08:00 ] 0.0.0.0 /think/
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:36:48+08:00 ] 0.0.0.0 /think/index.php/index/album?d=2
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:36:50+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=2
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:37:02+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:38:14+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:38:17+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:40:18+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:40:20+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:40:57+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:41:01+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:41:13+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:41:34+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:42:18+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:42:20+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:42:42+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:44:20+08:00 ] 0.0.0.0 /think/index.php/index/Index/index?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:44:26+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:44:28+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:44:35+08:00 ] 0.0.0.0 /think/index.php/index/Index/index?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:44:37+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:44:41+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:44:54+08:00 ] 0.0.0.0 /think/index.php/
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:45:01+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:45:22+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:45:52+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:45:53+08:00 ] 0.0.0.0 /think/index.php/index/album.html
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:45:57+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:47:10+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:47:10+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:47:11+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:47:54+08:00 ] 0.0.0.0 /think/index.php/
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:47:55+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:48:00+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:20+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:21+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:22+08:00 ] 0.0.0.0 /think/index.php/index/album?d=1
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:24+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:43+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:44+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:44+08:00 ] 0.0.0.0 /think/index.php/index/works?ad=1&d=1
+NOTIC: 建议使用I方法替代_param
+NOTIC: 建议使用I方法替代_param
+
+[ 2015-03-18T17:49:52+08:00 ] 0.0.0.0 /think/index.php/
+NOTIC: 建议使用I方法替代_param
+

@@ -4,15 +4,27 @@ li { list-style: none; }
 h1, h2, h3, h4, h5, h6 { font-size: 100%;}
 a{ text-decoration:none; color:#666;}
 body { color:#666; font:14px/1.5 Hiragino Sans GB,Arial,Helvetica,Microsoft YaHei,sans-serif; min-width:320px; -webkit-tap-highlight-color:rgba(0,0,0,0);}
+*,
+*:after,
+*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 .fl{float: left;}
 .fr{float: right;}
 .cb{clear: both;}
 /* ---------------首页------------- */
 /* 导航 */
-.uolor_nav{width: 100%;height: 44px;padding-top: 16px;background: #f2f2f2;border-bottom: 1px solid #ccc;}
+.uolor_nav{width: 100%;height: 60px;padding-top: 16px;background: #f2f2f2;border-bottom: 1px solid #ccc;}
 .u_c_nav{width: 960px;margin: 0 auto;}
 .u_c_nav div{line-height: 30px;}
 .u_c_nav div ul li{float: left;padding: 0 10px;margin: 0 10px;}
+.u_c_nav div ul li:last-child a{color: #EE4C8D;}
 .u_c_nav img{display: inline-block;}
 .serach div{float: left;}
 .serach a{float: left;padding: 0 10px;}
@@ -83,10 +95,10 @@ body { color:#666; font:14px/1.5 Hiragino Sans GB,Arial,Helvetica,Microsoft YaHe
 /* works */
 .works_contents{width: 1024px;margin: 0 auto;text-align: center;}
 .works_info{display: inline-block;margin: 20px 0;}
-.works_info a{font-size: 38px;}
+.works_info p{font-size: 38px;}
 .works_lists{text-align: center;}
 .works_posts{margin: 0 auto 10px auto;}
-.works_posts img{margin: 0 auto;}
+.works_posts img{margin: 0 auto;max-width: 1000px;}
 .comment_contents{width: 800px;height: 130px;}
 .comment_submit{width: 80px;height: 30px;}
 .comments_lists{width: 800px;text-align: left;margin: 0 auto;}
@@ -95,6 +107,14 @@ body { color:#666; font:14px/1.5 Hiragino Sans GB,Arial,Helvetica,Microsoft YaHe
 .comments_lists li div{width: 100%;float: left;}
 .comments_lists li span{float: left;}
 .comments_lists li p{float: left;}
+/*upload*/
+.uolor_upload{width: 970px;margin: 0 auto;text-align: center;padding: 50px 0;}
+.upload_addimg{width: 668px;border: 1px dashed #ccc;height: 310px;margin: 20px auto;text-align: center;position: relative;}
+.upload_addimg .imgupload{/*width: 100%;height: 100%;*/display: block;/*opacity: 0;*/position:absolute;z-index: 10;left: 0;top: 0;}
+.upload_addimg img{width: 100px;height: 100px;position: absolute;z-index: 1;left: 50%;top: 50%;margin-left: -50px;margin-top: -50px;}
+.upload_desc{width: 668px;min-height: 50px;max-height: 100px;color: #888;padding: 5px;}
+.upload_labels{width: 668px;min-height: 30px;padding: 2px 5px;}
+
 
 /* ---------footer----------- */
 #footer{width: 100%;height: 348px;background:none repeat scroll 0% 0% #888;}

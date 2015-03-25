@@ -3,20 +3,42 @@
 
 // 本类由系统自动生成，仅供测试用途
 class IndexAction extends Action {
+/*
+ * application:为首页栏目分类
+ * 更多展示:1
+ * 明星拍摄:2
+ * 机构招募:3
+ * 行业明星:4
+ * 机构推荐:5
+ * */
     public function index(){
     	$userid = $this->_param('d');
 		if(!empty($userid)){
 			$User = M('User');
-			$user_name = $User->where('Id="'.$userid.'"')->field('username')->select();
-			//print_r($user_name);
+			$user_name = $User->where('Id="'.$userid.'"')->select();
 			$outinfo_name = $user_name[0][username];
 			$this->assign('outinfo_name',$outinfo_name);
+			$outinfo_userid = $user_name[0][Id];
+			$this->assign('outinfo_userid',$outinfo_userid);
+			
 		}
+		//更多展示
 		$Pictures = M('Pictures');
-		$show_more = $Pictures->where('albumid=16')->select();
+		$Album = M('Album');
+		$show_more = $Album->table('uolor_pictures,uolor_album')->where('uolor_pictures.albumid = uolor_album.Id and uolor_pictures.application=1')->select();
 		$this->assign('show_more',$show_more);
-		//print_r($show_more);
-		
+		//明星拍摄
+		$msp = $Pictures->where('application=2')->select();
+		$this->assign('msp',$msp);
+		//机构招募
+		$recruit = $Pictures->where('application=3')->select();
+		$this->assign('recruit',$recruit);
+		//行业明星
+		$fieldsstar = $Pictures->where('application=4')->select();
+		$this->assign('fieldsstar',$fieldsstar);
+		//机构推荐
+		$recommend = $Pictures->where('application=5')->select();
+		$this->assign('recommend',$recommend);
 		//echo $userid;
     	//添加数据
 /*		$User = M('User');
@@ -57,9 +79,46 @@ class IndexAction extends Action {
 	}*/
 	
 	public function album(){
+		$userid = $this->_param('d');
+		$User = M('User');
+		if(!empty($userid)){
+			$user_name = $User->where('Id="'.$userid.'"')->select();
+			//print_r($user_name);
+			$outinfo_name = $user_name[0][username];
+			$this->assign('outinfo_name',$outinfo_name);
+			$outinfo_userid = $user_name[0][Id];
+			$this->assign('outinfo_userid',$outinfo_userid);
+		}
+		//个人信息
+		$userinfo = $User->where('Id="'.$userid.'"')->select();
+		$this->assign('userinfo',$userinfo[0]);
+		//相册
+		$Album = M('Album');
+		$albums = $Album->where('userid="'.$userid.'"')->select();
+		$this->assign('albums',$albums);
 		$this->display();
 	}
 	public function works(){
+		$userid = $this->_param('d');
+		$User = M('User');
+		if(!empty($userid)){
+			$user_name = $User->where('Id="'.$userid.'"')->select();
+			//print_r($user_name);
+			$outinfo_name = $user_name[0][username];
+			$this->assign('outinfo_name',$outinfo_name);
+			$outinfo_userid = $user_name[0][Id];
+			$this->assign('outinfo_userid',$outinfo_userid);
+		}
+		//个人信息
+		$userinfo = $User->where('Id="'.$userid.'"')->select();
+		$this->assign('userinfo',$userinfo[0]);
+		//作品
+		$albumid = $this->_param('ad');
+		$Works = M('Pictures');
+		$worklist = $Works->where('albumid="'.$albumid.'" and application is null')->select();
+		//print_r($worklist);
+		$this->assign('worklist',$worklist);
+		//评论
 		$Comment = M('Comment');
 		$list = $Comment->where('picturesid=1')->getField('id,userid,content');
 		$this->assign('list',$list);
@@ -113,9 +172,35 @@ class IndexAction extends Action {
 		$this->display();
 	}
 	
+	public function upload(){
+		$userid = $this->_param('d');
+		$User = M('User');
+		if(!empty($userid)){
+			$user_name = $User->where('Id="'.$userid.'"')->select();
+			//print_r($user_name);
+			$outinfo_name = $user_name[0][username];
+			$this->assign('outinfo_name',$outinfo_name);
+			$outinfo_userid = $user_name[0][Id];
+			$this->assign('outinfo_userid',$outinfo_userid);
+		}
+		
+		$this->display();
+	}
 	
-	
-	
+	public function  uploadify(){
+		import('ORG.Net.UploadFile');
+		$upload = new UploadFile();
+		$upload->maxSize  = 3145728 ;// 设置附件上传大小
+		$upload->allowExts  = array('jpg', 'gif', 'png', 'jpeg');// 设置附件上传类型
+		$upload->savePath = './home/TPL/Public/images/works/';// 设置附件上传目录
+		 if(!$upload->upload()) {// 上传错误提示错误信息
+			  $this->error($upload->getErrorMsg());
+		 	  echo "上传失败";
+		 }else{// 上传成功 获取上传文件信息
+			  $info =  $upload->getUploadFileInfo();
+			  echo  '上传成功';
+		 }
+	}
 	
 	
 	

@@ -2,10 +2,15 @@
 <!--正文-->
 	<div class="works_contents">
 		<div class="works_info">
-			<a href="album.html">法越鑫</a>
+			<p>{$userinfo['username']}</p>
 		</div>
 		<div class="works_lists">
-			<div class="works_posts">
+			<volist name='worklist' id='vo'>
+				<div class="works_posts">
+					<img src="__TMPL__/Public/images/works/{$vo['imgurl']}">
+				</div>
+			</volist>
+			<!--<div class="works_posts">
 				<a href="#"><img src="__TMPL__/Public/images/works/636696397337325376.jpg"></a>
 			</div>
 			<div class="works_posts">
@@ -31,24 +36,16 @@
 			</div>
 			<div class="works_posts">
 				<a href="#"><img src="__TMPL__/Public/images/works/6630896241884677100.jpg"></a>
-			</div>
+			</div>-->
 		</div>
 		<div class="works_comments">
 			<form action='__ACTION__'>
 				<textarea class="comment_contents" name="content"></textarea><br />
 				<input type="submit" class="comment_submit"  value="提交" />
 			</form>
-			
 		</div>
 		<div class="comments_lists">
-		
-			
-		
-				
-
-			
 			<ul>
-				
 				<volist name="list" id="aa" key='k'>
 				<li><div><span>{$aa['userid']}</span><p>{$aa['content']}</p></div></li>
 				</volist>

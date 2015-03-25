@@ -26,13 +26,13 @@
 	<volist name='show_more' id='sm' offset='0' length='12'>
 		<div class="mts_posts">
 			<div class="mts_post uc_post">
-				<a href="__URL__/album?id={$sm.Id}">
+				<a href="__URL__/album?d={$sm.userid}">
 					<img src="__TMPL__/Public/images/moretoshow/{$sm.imgurl}">
 					<div class="mts_post_title">{$sm.describe}</div>
 				</a>
 			</div>
 			<ul>
-				<li>发布人/<span><a href="__URL__/album?id=1">{$sm.name}</a></span></li>
+				<li>发布人/<span><a href="__URL__/album?d={$sm.userid}">{$sm.name}</a></span></li>
 				<li>职业/<span>{$sm.type}</span></li>
 				<li>点击量/<span>{$sm.amount}</span></li>
 			</ul>
@@ -220,7 +220,20 @@
 		<div class="cb"></div>
 	</div>
 	<div class="msp_c">
-		<div class="msp_posts">
+		<volist name='msp' id='vo' offset='0' length='6'>
+			<div class="msp_posts">
+				<div class="msp_post uc_post">
+					<img src="__TMPL__/Public/images/msp/{$vo.imgurl}">
+					<div class="msp_post_title">{$vo.describe}</div>
+				</div>
+				<ul>
+					<li>发布人/<span><a href="#">{$vo.name}</a></span></li>
+					<li>职业/<span>{$vo.type}</span></li>
+					<li>点击量/<span>{$vo.amount}</span></li>
+				</ul>
+			</div>
+		</volist>
+		<!--<div class="msp_posts">
 			<div class="msp_post uc_post">
 				<img src="__TMPL__/Public/images/msp/img2_mokoshow_9423735.jpg">
 				<div class="msp_post_title">MSP邓琳颖</div>
@@ -285,7 +298,7 @@
 				<li>职业/<span>演员</span></li>
 				<li>点击量/<span>156801</span></li>
 			</ul>
-		</div>
+		</div>-->
 	</div>
 	<div class="u_ad">
 		<a href="#">
@@ -309,7 +322,15 @@
 	</div>
 	<div class="recruit_cb">
 		<div class="recruit_c">
-			<div class="recruit_posts">
+			<volist name='recruit' id='vo' offset='0' length='6'>
+				<div class="recruit_posts">
+					<div class="recruit_post">
+						<img src="__TMPL__/Public/images/recruit/{$vo.imgurl}">
+						<p> > <a href="#">{$vo.describe}</a></p>
+					</div>
+				</div>
+			</volist>
+			<!--<div class="recruit_posts">
 				<div class="recruit_post">
 					<img src="__TMPL__/Public/images/recruit/img2_mokoshow_9174923.jpg">
 					<p> > <a href="#">路易斯·王 影像机构</a></p>
@@ -344,7 +365,7 @@
 					<img src="__TMPL__/Public/images/recruit/img2_mokoshow_9174923.jpg">
 					<p> > <a href="#">路易斯·王 影像机构</a></p>
 				</div>
-			</div>
+			</div>-->
 		</div>
 		<div class="cb"></div>
 	</div>
@@ -355,7 +376,16 @@
 	</div>
 	<div class="fs_cb">
 		<div class="fs_c fl">
-			<div class="fs_posts">
+			<volist name='fieldsstar' id='vo' offset='0' length='14'>
+				<div class="fs_posts">
+					<div class="fs_post uc_post">
+						<img src="__TMPL__/Public/images/fieldsstar/{$vo.imgurl}">
+						<div class="jobs">{$vo.type}</div>
+					</div>
+					<p><a href="#">{$vo.name}</a></p>
+				</div>
+			</volist>
+			<!--<div class="fs_posts">
 				<div class="fs_post uc_post">
 					<img src="__TMPL__/Public/images/fieldsstar/img2_des_9432437.jpg">
 					<div class="jobs">模特儿</div>
@@ -452,7 +482,7 @@
 					<div class="jobs">模特儿</div>
 				</div>
 				<p><a href="#">王梦实</a></p>
-			</div>
+			</div>-->
 			
 		</div>
 		<div class="cb"></div>
@@ -462,7 +492,19 @@
 	</div>
 	<div class="rec_cb">
 		<div class="rec_c fl">
-			<div class="rec_posts">
+			<volist name='recommend' id='vo' offset='0' length='7'>
+				<div class="rec_posts">
+					<div class="rec_post">
+						<img src="__TMPL__/Public/images/recommend/{$vo.imgurl}">
+					</div>
+					<ul>
+						<li>><a href="#">{$vo['describe']}</a></li>
+						<li><span>VIP </span>{$vo['type']}</li>
+						<li>粉丝数量<span>{$vo['amount']}</span></li>
+					</ul>
+				</div>
+			</volist>
+			<!--<div class="rec_posts">
 				<div class="rec_post">
 					<img src="__TMPL__/Public/images/recommend/img2_des_9804702.jpg">
 				</div>
@@ -531,7 +573,7 @@
 					<li><span>VIP </span>电影摄影</li>
 					<li>粉丝数量<span>273</span></li>
 				</ul>
-			</div>
+			</div>-->
 		</div>
 		<div class="cb"></div>
 	</div>
