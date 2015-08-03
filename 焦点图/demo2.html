@@ -1,0 +1,111 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>焦点图</title>
+	<style type="text/css">
+		*{margin:0;padding:0;}
+		ul,li,ol{list-style:none;}
+		#box{width:760px;height:281px;overflow:hidden;margin:20px auto;position:relative;}
+		#box ul li{display:none;}
+		#box ul li img{width:100%; display:block;}
+		#box ol{position:absolute;bottom:5px;right:10px;}
+		#box ol li{float:left;margin-right:5px;color:#fff;width:20px;height:20px;background:rgba(255,102,0,0.5);text-align:center;line-height:20px;}
+		#box ol li.active{background:rgba(102,102,102,0.5);}
+
+/* 动画 */
+		@-webkit-keyframes opacity{
+			0%{
+				opacity:0;
+			}
+			50%{
+				opacity:0.8;
+			}
+			100%{
+				opacity:1;
+			}
+		}
+		@keyframes opacity{
+			0%{
+				opacity:0;
+			}
+			50%{
+				opacity:0.8;
+			}
+			100%{
+				opacity:1;
+			}
+		}
+		.opacity{
+			-webkit-animation: opacity 1s both;
+          animation: opacity 1s both;
+    	}
+    	@-webkit-keyframes opacityout{
+			0%{
+				opacity:1;
+			}
+			50%{
+				opacity:0.2;
+			}
+			100%{
+				opacity:0;
+			}
+		}
+		@keyframes opacityout{
+			0%{
+				opacity:1;
+			}
+			50%{
+				opacity:0.2;
+			}
+			100%{
+				opacity:0;
+			}
+		}
+		.opacityout{
+			-webkit-animation: opacityout 1s both;
+          animation: opacityout 1s both;
+    	}
+	</style>
+</head>
+<body>
+<div id='box'>
+	<ul>
+		<li style="display:block;"><img src="images/01.jpg" alt=""></li>
+		<li><img src="images/02.jpg" alt=""></li>
+		<li><img src="images/03.jpg" alt=""></li>
+		<li><img src="images/04.jpg" alt=""></li>
+		<li><img src="images/05.jpg" alt=""></li>
+
+	</ul>
+	<ol>
+		<li class="active">1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+		<li>5</li>
+	</ol>
+	<script type="text/javascript">
+	var uul = document.getElementsByTagName('ul')[0];
+	var uli = uul.getElementsByTagName('li');
+
+	var uol = document.getElementsByTagName('ol')[0];
+	var oli = uol.getElementsByTagName('li');
+	for(var i =0 ;i<oli.length;i++){
+		oli[i].index = i;
+		oli[i].onmouseover = function(){
+			for(var i = 0;i<oli.length;i++){
+				oli[i].className = '';
+				uli[i].style.display = 'none';
+				uli[i].style.filter = 'alpha(opacity=0)';
+				uli[i].className = 'opacityout';
+			}
+			this.className = 'active';
+			uli[this.index].style.display = "block";	
+			uli[this.index].className='opacity';
+							    
+		}
+	}
+	</script>
+</div>
+</body>
+</html>
